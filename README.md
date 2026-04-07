@@ -4,7 +4,7 @@ A modern, lightweight, and user-centric text editor built with **C++** and the *
 
 ![Qt](https://img.shields.io/badge/Qt-217346?style=for-the-badge&logo=Qt&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -68,11 +68,31 @@ To prevent excessive disk I/O, the app uses a **QTimer + Lambda** approach for z
 ---
 
 ##  Build & Run
-Requirements: Qt Creator and a C++ Compiler (MSVC/MinGW).
 
-Build: Open Notepad.pro in Qt Creator and press Ctrl + R.
+### Prerequisites
+* **Qt Framework:** 6.x or higher
+* **Compiler:** MSVC 2019+ or MinGW 11+
+* **Build System:** CMake or qmake
 
-Deployment: Use windeployqt for a standalone executable.
+### Steps to Build
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Fatih-Sahinoglu/Qt-Notepad-App.git](https://github.com/Fatih-Sahinoglu/Qt-Notepad-App.git)
+
+2. Open Notepad.pro in Qt Creator.
+
+3. Select your kit (e.g., Desktop Qt 6.x.x MinGW 64-bit).
+
+4. Press Ctrl + R to Build and Run.
+
+## 📦 Deployment
+To create a standalone Windows executable:
+
+1. Build the project in **Release** mode.
+2. Copy `Qt_Notepad_App.exe` to an empty folder.
+3. Open **Qt Desktop Command Prompt**, navigate to that folder and run:
+   ```bash
+   windeployqt Qt_Notepad_App.exe
 
 ---
 
