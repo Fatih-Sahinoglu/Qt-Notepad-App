@@ -7,7 +7,11 @@ A modern, lightweight, and user-centric text editor built with **C++** and the *
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
 ---
-![Qt_Notepad_App](https://github.com/user-attachments/assets/0dbd32ea-4dfb-4545-bc9e-7dd1224136c2)
+<p align = "center">
+<img src="https://github.com/user-attachments/assets/0dbd32ea-4dfb-4545-bc9e-7dd1224136c2" width="600">
+</p>
+
+---
 
 ##  Features
 
